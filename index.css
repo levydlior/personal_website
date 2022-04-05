@@ -52,3 +52,9 @@ li:hover{
  body {
     margin: 0;
  }
+
+ @media only screen and (max-width: 600px) {
+    #navBar {
+        display: none;
+    }
+  }

@@ -61,11 +61,19 @@ li:hover{
     display: none;
 }
 
+#topNavContainer {
+        display: none;
+}
+
  @media only screen and (max-width: 600px) {
     #navBar {
         display: none;
     }
 
+    #topNavContainer {
+        padding-top: 2rem;
+        display: flex;
+    }
         /* Style the navigation menu */
     .topnav {
         overflow: hidden;

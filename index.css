@@ -33,7 +33,7 @@ li {
 }
 
 main {
-    padding: 0.5rem;
+    padding: 1rem;
 
 }
 
@@ -74,19 +74,16 @@ li:hover{
         padding-top: 2rem;
         display: flex;
     }
-        /* Style the navigation menu */
     .topnav {
         overflow: hidden;
         position: relative;
         display: unset;
     }
     
-    /* Hide the links inside the navigation menu (except for logo/home) */
     .topnav #myLinks {
         display: none;
     }
     
-    /* Style navigation menu links */
     .topnav a {
         color: black;
         padding: 14px 16px;
@@ -95,7 +92,6 @@ li:hover{
         display: block;
         }
     
-    /* Style the hamburger menu */
     .topnav a.icon {
         display: block;
         position: absolute;
@@ -104,7 +100,6 @@ li:hover{
         height: 2.5rem;
     }
     
-    /* Add a grey background color on mouse-over */
     .topnav a:hover {
         background-color: #ddd;
         color: black;
